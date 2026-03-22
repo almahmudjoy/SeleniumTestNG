@@ -118,7 +118,7 @@ mvn clean install
 
 ---
 
-## ⚠️ Important Notes
+⚠️ Important Notes
 
 * Chrome browser is used
 * ChromeDriver is managed locally (not pushed to GitHub)
@@ -126,7 +126,7 @@ mvn clean install
 
 ---
 
-## 🔥 Sample Code (Locator Example)
+🔥 Sample Code (Locator Example)
 
 ```java
 WebElement email = driver.findElement(By.id("email"));
@@ -158,6 +158,7 @@ email.sendKeys("test@gmail.com");
 **Abdullah Al Mahmud Joy**
 
 🎓 CSE Student
+
 💻 Aspiring SQA Engineer and Future Lecturer
 
 ---
