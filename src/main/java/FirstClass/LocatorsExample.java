@@ -116,10 +116,10 @@ public class LocatorsExample extends BatchDriverTest{
         launch.click();
         Thread.sleep(300);
 
-        //By Class- 2nd deiver
-        WebElement send = driver.findElement(By.className("form-group"));
-        send.click();
-        Thread.sleep(300);
+//        //By Class- 2nd deiver
+//        WebElement send = driver.findElement(By.className("form-group"));
+//        send.click();
+//        Thread.sleep(300);
 
 //        /*
 //        *Custom Xpath->
@@ -131,13 +131,13 @@ public class LocatorsExample extends BatchDriverTest{
 //        xpath use krbo, otherwise 'id','name' etc unique jinis die identify krbo.
 //         */
 
-        WebElement email = driver.findElement(By.xpath("//input[@type='email']"));
-        email.sendKeys("xyz@gmail.com");
-        Thread.sleep(3000);
-
-        WebElement bus = driver.findElement(By.xpath("(//div)[55]"));
-        bus.click();
-        Thread.sleep(300);
+//        WebElement email = driver.findElement(By.xpath("//input[@type='email']"));
+//        email.sendKeys("xyz@gmail.com");
+//        Thread.sleep(3000);
+//
+//        WebElement bus = driver.findElement(By.xpath("(//div)[55]"));
+//        bus.click();
+//        Thread.sleep(300);
 
 
 
