@@ -54,7 +54,7 @@ SeleniumTestNG/
 
 ---
 
-## 🧪 Features / Test Coverage
+🧪 Features / Test Coverage
 
 ✔️ Browser Commands (open, close, maximize)
 ✔️ Navigation (back, forward, refresh)
@@ -88,21 +88,21 @@ SeleniumTestNG/
 * @BeforeMethod / @AfterMethod
 * Test Prioritization
 
----
 
-## ▶️ How to Run
 
-### 1️⃣ Clone the Repository
+▶️ How to Run
+
+1️⃣ Clone the Repository
 
 ```
 git clone https://github.com/almahmudjoy/SeleniumTestNG.git
 ```
 
-### 2️⃣ Open in IntelliJ IDEA
+2️⃣ Open in IntelliJ IDEA
 
 * File → Open → Select project folder
 
-### 3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 
 Maven will auto-download dependencies
 (or run manually):
@@ -111,7 +111,7 @@ Maven will auto-download dependencies
 mvn clean install
 ```
 
-### 4️⃣ Run Tests
+4️⃣ Run Tests
 
 👉 Option 1: Run `testng.xml.`
 👉 Option 2: Run individual test classes
