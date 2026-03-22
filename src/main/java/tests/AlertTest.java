@@ -1,11 +1,12 @@
-package FirstClass;
+package tests;
 
+import base.BaseTest;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class AlertHandle extends BatchDriverTest{
+public class AlertTest extends BaseTest {
 
     String url = "https://demoqa.com/alerts";
 

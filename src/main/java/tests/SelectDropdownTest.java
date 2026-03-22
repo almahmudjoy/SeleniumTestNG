@@ -1,11 +1,12 @@
-package FirstClass;
+package tests;
 
+import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class SelectMethodHandling extends BatchDriverTest {
+public class SelectDropdownTest extends BaseTest {
     String url = "https://www.arogga.com/";
 
     @Test

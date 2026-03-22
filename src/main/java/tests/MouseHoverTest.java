@@ -1,11 +1,12 @@
-package FirstClass;
+package tests;
 
+import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class MouseHoverHandling extends BatchDriverTest {
+public class MouseHoverTest extends BaseTest {
 
 //    String url = "https://www.daraz.com.bd/products/-i466794822-s2245484963.html?laz_trackid=2:mm_158272437_426481230_4181480734:clkgg2dgt1j27r9684kmci&mkttid=clkgg2dgt1j27r9684kmci";
 //    String url = "https://chaldal.com/";

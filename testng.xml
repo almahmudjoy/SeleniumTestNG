@@ -2,7 +2,7 @@
 <suite name="Default Suite">
     <test name="Selenium Tests">
         <classes>
-            <class name="FirstClass.BatchDriverTest"/>
+            <class name="base.BaseTest"/>
         </classes>
     </test>
 </suite>

@@ -1,11 +1,12 @@
-package FirstClass;
+package tests;
 
+import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class ScrollHandling extends BatchDriverTest{
+public class ScrollTest extends BaseTest {
 
     String url = "https://www.arogga.com/";
     @Test

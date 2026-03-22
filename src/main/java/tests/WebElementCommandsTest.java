@@ -1,10 +1,11 @@
-package FirstClass;
+package tests;
 
+import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class WebElementCommandsExample extends BatchDriverTest {
+public class WebElementCommandsTest extends BaseTest {
     String url = "https://demoqa.com/automation-practice-form";
 
     @Test
