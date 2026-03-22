@@ -149,6 +149,7 @@ email.sendKeys("test@gmail.com");
 ## 📊 Project Status
 
 🟢 Active Learning Project
+
 🟢 Continuously Improving
 
 ---
