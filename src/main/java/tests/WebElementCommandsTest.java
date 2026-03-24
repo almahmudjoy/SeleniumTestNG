@@ -27,12 +27,12 @@ public class WebElementCommandsTest extends BaseTest {
         mobile.sendKeys("1682062401");
         Thread.sleep(500);
 
-        WebElement dob = driver.findElement(By.xpath("//input[@id='dateOfBirthInput']"));
-        dob.click();
-        Thread.sleep(500);
+//        WebElement subject = driver.findElement(By.cssSelector("div.subjects-auto-complete__input-container input"));
+//        subject.sendKeys("I want to join your company");
+//        Thread.sleep(1000);
 
-//        WebElement submit = driver.findElement(By.xpath("//*[@id=\"submit\"]"));
-//        submit.click();
+//        WebElement dob = driver.findElement(By.xpath("//input[@id='dateOfBirthInput']"));
+//        dob.click();
 //        Thread.sleep(500);
 
         WebElement email = driver.findElement(By.xpath("//input[@id='userEmail']"));
@@ -44,6 +44,17 @@ public class WebElementCommandsTest extends BaseTest {
         System.out.println(formValue);
         Thread.sleep(500  );
 
+        WebElement text2 = driver.findElement(By.xpath("//label[@id='userNumber-label']"));
+        System.out.println(text2.getText());
+        Thread.sleep(300);
+
+
+
+//        WebElement submit = driver.findElement(By.xpath("//*[@id=\"submit\"]"));
+//        submit.click();
+//        Thread.sleep(500);
+
+//
         System.out.println("CSS Value : "+ text.getCssValue("font-size"));
         System.out.println("CSS Value : "+ text.getCssValue("color"));
 
@@ -58,14 +69,29 @@ public class WebElementCommandsTest extends BaseTest {
             System.out.println("Email address is not found");
         }
 
-//        WebElement sports = driver.findElement(By.xpath("//label[@for='hobbies-checkbox-1']"));
-//
-//        if (!sports.isSelected()) {
-//            sports.click();
-//            Thread.sleep(500);
-//        }else {
-//            System.out.println("Sports is already selected");
-//        }
+        WebElement sports = driver.findElement(By.xpath("//label[@for='hobbies-checkbox-1']"));
+
+        if (!sports.isSelected()) {
+            sports.click();
+            Thread.sleep(500);
+        }else {
+            System.out.println("Sports is already selected");
+        }
+
+        WebElement gender = driver.findElement(By.xpath("//label[@for='gender-radio-1']"));
+
+        if (!gender.isSelected()){
+            gender.click();
+            Thread.sleep(300);
+        }else {
+            System.out.println("Gender is already selected");
+        }
+
+        if (!gender.isDisplayed()){
+            Thread.sleep(300);
+        } else {
+            System.out.println("Gender is Displayed");
+        }
 
 
 
