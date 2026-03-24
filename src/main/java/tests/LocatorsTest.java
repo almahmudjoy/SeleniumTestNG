@@ -10,9 +10,10 @@ public class LocatorsTest extends BaseTest {
     @Test
     public void testLocators() throws InterruptedException {
         driver.get("https://www.shohoz.com/contact-us");
+        driver.manage().window().maximize();
         Thread.sleep(3000);
 //        driver.get("https://train.shohoz.com/?_gl=1*1p32pq9*_gcl_au*MTE2MzI2OTI1OC4xNzY5NTI3Mzk2LjgzOTg5NTg4My4xNzc0MDM3MTE4LjE3NzQwMzcxMTc.");
-        Thread.sleep(3000);
+//        Thread.sleep(3000);
 
         //By ID
         WebElement bus = driver.findElement(By.id("purpose"));
@@ -50,7 +51,7 @@ public class LocatorsTest extends BaseTest {
         launch.click();
         Thread.sleep(300);
 
-//        //By Class- 2nd deiver
+//        //By Class- 2nd deliver
 //        WebElement send = driver.findElement(By.className("form-group"));
 //        send.click();
 //        Thread.sleep(300);
