@@ -19,6 +19,7 @@ public class AlertTest extends BaseTest {
         WebElement alertButton = driver.findElement(By.xpath("//button[@id='alertButton']"));
         alertButton.click();
         Thread.sleep(500);
+
         Alert alert = driver.switchTo().alert();
         alert.accept();
         Thread.sleep(500);
